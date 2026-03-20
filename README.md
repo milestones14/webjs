@@ -56,7 +56,7 @@ Attach the runtime to server-rendered HTML directly, no separate client shell re
 Simply include the runtime in your project:
 
 ```html
-<script src="please wait while i add the file"></script>
+<script src="https://raw.githack.com/milestones14/webjs/1.0.0/webjs_min.js"></script>
 ````
 
 Then hydrate your app:
