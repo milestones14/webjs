@@ -15,6 +15,8 @@ Unlike traditional frameworks, WebJS:
 
 WebJS is designed for developers who want **control without ceremony**.
 
+**_Have an idea or found a bug? Please [submit a bug report](https://github.com/milestones14/webjs/issues/new)_**
+
 ---
 
 ## Core Primitives
