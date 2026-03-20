@@ -54,27 +54,14 @@ Attach the runtime to server-rendered HTML directly, no separate client shell re
 ---
 
 ## Getting Started
+Clone the project template:
 
-Simply include the runtime in your project:
-
-```html
-<script src="https://raw.githack.com/milestones14/webjs/1.0.0/webjs_min.js"></script>
-````
-
-Then hydrate your app:
-
-```javascript
-const store = WebJS.store({ user: { name: 'Alice' }, items: [] });
-
-WebJS.hydrate('#app', (root) => {
-    const container = WebJS.container.vertical().spacing(16);
-    root.append(container);
-
-    WebJS.element.h1('Hello, WebJS!').addTo(container);
-});
+```bash
+git clone https://github.com/milestones14/webjs-proj.git
 ```
+You may delete README.md if you wish.
 
-Everything—layout, styling, behavior—lives **in JavaScript**.
+Then just open the `index.html` file in your browser! **Your app code lives in `app.js`**
 
 ---
 
