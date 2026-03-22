@@ -61,9 +61,11 @@ git clone https://github.com/milestones14/webjs-proj.git
 ```
 You may delete README.md if you wish.
 
-Then just open the `index.html` file in your browser! **Your app code lives in `app.js`**
+Then just open the `index.html` file in your browser or publish it to a web server! **Your app code lives in `app.js`**
 
 ---
+
+## View [the documentation](https://webjs-dox.static2.website/).
 
 ## Example: State & Reactivity
 
